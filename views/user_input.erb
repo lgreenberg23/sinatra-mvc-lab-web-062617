@@ -6,6 +6,15 @@
   </head>
   <body>
     <h1>Pig Latinizer</h1>
+
+     <form method="POST" action="/piglatinize">
+     	<h2> Pig Latinizer! </h2>
+     	<p> Enter your phrase: </p>
+        <p><input type="text" name="user_phrase"></p>
+
+  		<p><input type="submit" name="submit" id=submit></p>
+    </form>
+    <p><%= @new_phrase %></p> 	
   
   </body>
 </html>
